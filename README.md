@@ -70,3 +70,29 @@ Escriba un programa con sintaxis Python cuya función principal se llame **elimi
 "Error: La segunda lista debe elementos tipo entero"
 
 ```
+##	Niveles lista
+Escriba un programa con sintaxis Python cuya función principal se llame **nivelesLista(lista)**, que reciba como entrada una lista con cualquier tipo de valores y que retorne una lista con los niveles de profundidad. La cantidad de elementos de cada sub lista debe de ser de 1
+
+```python
+>>>nivelesLista( [ [[[[]]]], 2, [] ] )
+[4 ,0, 1]
+>>> nivelesLista([2], [], [[[[[[]]]]]])
+[1, 1, 6]
+>>> nivelesLista(25)
+"Error: El parámetro de entrada debe ser una lista"
+```
+##	Devolver Indices
+Escriba un programa con sintaxis Python cuya función principal se llame **obtenerIndicesListas([lista1, lista2, lista3])**, que reciba como entrada una lista con lista y que retorne una lista de lista con los ínidces en donde aparezca un número primo o negativo
+
+```python
+>>>v1 = [12,  56, 7 , 11 , -8, 3] 
+>>>v2 = [-26, 2, 75 , 19 , -18, 23] 
+>>>v3 = [6, 2, 10 , 50, 90] 
+
+>>> obtenerIndicesListas([v1, v2, v3])
+[[2,3,4], [0,3,4,5], []]
+
+>>> obtenerIndicesListas(25)
+"Error: El parámetro de entrada debe ser una lista"
+
+```
