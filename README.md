@@ -90,7 +90,7 @@ Escriba un programa con sintaxis Python cuya función principal se llame **obten
 >>>v3 = [6, 2, 10 , 50, 90] 
 
 >>> obtenerIndicesListas([v1, v2, v3])
-[[2,3,4], [0,3,4,5], [1]]
+[[2,3,4,5], [0,3,4,5], [1]]
 
 >>> obtenerIndicesListas(25)
 "Error: El parámetro de entrada debe ser una lista"
