@@ -11,7 +11,7 @@ def test_invertirLista_2():
     assert isinstance(Portafolio2B.invertirLista([]), str) == isinstance("Error: La lista debe contener al menos 2 elementos", str)
 
 def test_invertirLista_2():
-    assert isinstance(Portafolio2B.invertirLista([2,5,7,"ABC"]), str) == isinstance("Error: La lista debe elementos tipo entero", str)
+    assert isinstance(Portafolio2B.invertirLista([2,5,7,"ABC"]), str) == isinstance("Error: La lista debe contener elementos tipo entero", str)
     
     
 #####################################################################################################
@@ -26,7 +26,7 @@ def test_extremosLista_3():
     assert isinstance(Portafolio2B.extremosLista([]), str) == isinstance("Error: La lista debe contener al menos 2 elementos", str)
 
 def test_extremosLista_4():
-    assert isinstance(Portafolio2B.extremosLista([2,5,7,"ABC"]), str) == isinstance("Error: La lista debe elementos tipo entero", str)
+    assert isinstance(Portafolio2B.extremosLista([2,5,7,"ABC"]), str) == isinstance("Error: La lista debe contener elementos tipo entero", str)
     
 #####################################################################################################
 
