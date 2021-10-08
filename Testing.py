@@ -54,9 +54,9 @@ def test_eliminarElementosLista_7():
 #####################################################################################################
 
 def test_nivelesLista_1():
-    assert Portafolio2B.nivelesLista( [ [[[[]]]], 2, [] ] ) == [4 ,0, 1]
+    assert Portafolio2B.nivelesLista([ [[[[]]]], 2, [] ] ) == [4 ,0, 1]
 def test_nivelesLista_2():
-    assert Portafolio2B.nivelesLista([2], [], [[[[[[]]]]]]) == [1, 1, 6]
+    assert Portafolio2B.nivelesLista([ [2], [], [[[[[[]]]]]] ]) == [1, 1, 6]
 def test_nivelesLista_3():
     assert isinstance(Portafolio2B.nivelesLista(25), str) == isinstance("Error: El parámetro de entrada debe ser una lista", str) 
     
